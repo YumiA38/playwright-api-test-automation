@@ -1,0 +1,17 @@
+{
+  "name": "playwright-api-test-automation",
+  "version": "1.0.0",
+  "description": "A junior QA portfolio project for REST API testing with Playwright and TypeScript.",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test",
+    "test:ui": "playwright test --ui",
+    "mock-api": "node scripts/mock-api-server.mjs",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.9.0"
+  }
+}
